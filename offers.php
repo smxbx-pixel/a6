@@ -38,7 +38,7 @@ if (!isset($_GET['auth']) || $_GET['auth'] !== 'secret992') {
   <script>
     const PASSPHRASE = "98yNCjeAfWMwk0wI";  
     const URL_KEY = "UrLk3yShopEase01";
-    const ENC_DATA_ORIGIN = "U2FsdGVkX1+mGzL3iY6T0anJr/LJ/D+ZTg7QImh7Isp6GmB3SXZLLKDSw1n1SlVM";
+    const ENC_DATA_ORIGIN = "U2FsdGVkX185SIW5dTnVPwHiFQ8oiX7AnMX5CND5ORpjj09Nhlo+sA5NC5FQ2qsF";
     const DATA_ORIGIN = CryptoJS.AES.decrypt(ENC_DATA_ORIGIN, URL_KEY).toString(CryptoJS.enc.Utf8);
     const DATA_URL = DATA_ORIGIN + "/data";
     let lastUrl = null;
